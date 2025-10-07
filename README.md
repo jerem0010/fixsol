@@ -37,7 +37,7 @@ cd fixsol
 chmod +x fixsol_pro.sh
 echo 'alias fixsol="~/fixsol/fixsol_pro.sh"' >> ~/.zshrc
 source ~/.zshrc
-
+```
 ---
 
 ## 🧱 Example Output
@@ -63,4 +63,33 @@ source ~/.zshrc
   ✔ Validator prêt
 
 ✅ Environnement propre et prêt à builder ton projet Anchor 🚀
+```
+---
+
+## 📦 Requirements
+
+- **Solana CLI** ≥ 1.18.21  
+- **Anchor CLI** = 0.31.1  
+- **Rust** ≥ 1.81.0  
+- Optional: `node`, `npm`, `cargo`, `solana-test-validator`
+
+---
+
+## 🧠 Why FixSol?
+
+Because every Solana dev knows the pain of:
+- mismatched versions between Solana and Anchor 😭  
+- random “idl error” or “unexpected cfg” warnings 😤  
+- Rust outdated toolchains 😩  
+
+💡 **FixSol Pro Edition** ensures everything is clean, aligned and ready to ship — automatically.
+
+---
+
+## 🛠 Tech Stack
+
+- **Language:** Bash  
+- **Platform:** Linux / WSL2  
+- **Target:** Solana / Anchor / Rust ecosystem  
+- **Shells supported:** `bash`, `zsh`
 
